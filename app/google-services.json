@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "460263006786",
+    "project_id": "diploma-ebbea",
+    "storage_bucket": "diploma-ebbea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460263006786:android:92f2b3d248fbd08f2803db",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460263006786-jl4915d1cdmjpp3lf97cvfp0f0a6ptgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaQgYMc_s8QaFbR6sbLHW_fSV0puzvPJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460263006786-jl4915d1cdmjpp3lf97cvfp0f0a6ptgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

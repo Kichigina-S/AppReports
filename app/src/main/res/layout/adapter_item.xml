@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView android:id="@+id/flightNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/flightNumber_textView"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/flightNumberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flightNumber"
+        android:text="@string/flightNumber_textView"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/flightData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/flightData_textView"
+        android:layout_below="@id/flightNumberText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/flightDataText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flightData"
+        android:text="@string/flightData_textView"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cargo_button"
+        android:layout_below="@id/flightDataText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/baggage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/baggage_textView"
+        android:layout_below="@id/loading"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/baggageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/baggage_textView"
+        android:layout_below="@id/baggage"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/cargo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cargo_textView"
+        android:layout_below="@id/baggageText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/cargoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cargo_textView"
+        android:layout_below="@id/cargo"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mail_textView"
+        android:layout_below="@id/cargoText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/mailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mail_textView"
+        android:layout_below="@id/mail"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/weapon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weapon_textView"
+        android:layout_below="@id/mailText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/weaponText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weapon_textView"
+        android:layout_below="@id/weapon"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/dang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dang_textView"
+        android:layout_below="@id/weaponText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/dangText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dang_textView"
+        android:layout_below="@id/dang"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/animal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/animal_textView"
+        android:layout_below="@id/dangText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/animalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/animal_textView"
+        android:layout_below="@id/animal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/purserReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_text"
+        android:layout_below="@id/animalText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/appear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appear_textView"
+        android:layout_below="@id/purserReport"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/appearText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appear_textView"
+        android:layout_below="@id/appear"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/docs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/docs_textView"
+        android:layout_below="@id/appearText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/docsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/docs_textView"
+        android:layout_below="@id/docs"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/beg_pax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/beg_pax_textView"
+        android:layout_below="@id/docsText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/beg_paxText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/beg_pax_textView"
+        android:layout_below="@id/beg_pax"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/end_pax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/end_pax_textView"
+        android:layout_below="@id/beg_paxText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/end_paxText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/end_pax_textView"
+        android:layout_below="@id/end_pax"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/end_paxText"
+        android:text="@string/close_textView"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/closeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/close_textView"
+        android:layout_below="@id/close"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/delay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delay_textView"
+        android:layout_below="@id/closeText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/delayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delay_textView"
+        android:layout_below="@id/delay"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/kitchen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kitchen_button"
+        android:layout_below="@id/delayText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/y_textView"
+        android:layout_below="@id/kitchen"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/yText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/y_textView"
+        android:layout_below="@id/y"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/k_textView"
+        android:layout_below="@id/yText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/kText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/k_textView"
+        android:layout_below="@id/k"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c_textView"
+        android:layout_below="@id/kText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/cText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c_textView"
+        android:layout_below="@id/c"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/chml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chml_textView"
+        android:layout_below="@id/cText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/chmlText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chml_textView"
+        android:layout_below="@id/chml"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/meml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/meml_textView"
+        android:layout_below="@id/chmlText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/memlText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/meml_textView"
+        android:layout_below="@id/meml"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/fiml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fiml_textView"
+        android:layout_below="@id/memlText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/fimlText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fiml_textView"
+        android:layout_below="@id/fiml"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/vgml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vgml_textView"
+        android:layout_below="@id/fimlText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/vgmlText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vgml_textView"
+        android:layout_below="@id/vgml"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/brml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/brml_textView"
+        android:layout_below="@id/vgmlText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/brmlText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/brml_textView"
+        android:layout_below="@id/brml"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_textView"
+        android:layout_below="@id/brmlText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView android:id="@+id/totalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_textView"
+        android:layout_below="@id/total"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
